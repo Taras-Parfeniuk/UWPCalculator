@@ -4,5 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Calculator.Test"
     RequestedTheme="Light">
+    <Application.Resources>
+        <vm:ViewModelLocator xmlns:vm="using:Calculator" x:Key="Locator" />
+    </Application.Resources>
 
 </Application>
